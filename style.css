@@ -15,7 +15,7 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
   }
   body {
-      background: linear-gradient(-45deg, #030303, #1f1c1d, #202425, #2d3836);
+      background: linear-gradient(-45deg, #756e6e, #6b4c57, #53838f, #34c4a9);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
   }
@@ -97,8 +97,21 @@ html, body {
     padding: 10px;
   }
   img.me{
-    padding-left: 150px;
+    padding-left:10px;
     align-content: center;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 15%
+  }
+  .header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }  
 
   
