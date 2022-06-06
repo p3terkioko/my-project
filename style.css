@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
     margin:10px;
     width:100vw;
@@ -8,9 +11,11 @@ html, body {
     width: 100%;
     height:100%;
   }
-  
+  title{
+    font-family: 'Courier New', Courier, monospace;
+  }
   body {
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background: linear-gradient(-45deg, #030303, #1f1c1d, #202425, #2d3836);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
   }
@@ -83,3 +88,17 @@ html, body {
   .wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(243, 239, 239, 0.1);
   }
+  header{
+    padding-left: 1000px;
+    background-color: rgba(255,255,255,0);
+  }
+  nav{
+    justify-content: space-between;
+    padding: 10px;
+  }
+  img.me{
+    padding-left: 150px;
+    align-content: center;
+  }
+
+  
